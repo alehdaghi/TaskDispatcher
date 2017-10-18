@@ -93,7 +93,7 @@ full exmaple
 
 and result is:
 
-<code>
+```
 
   in main thread
   dispatcher1  bin of 150 is : 0000000010010110
@@ -103,4 +103,4 @@ and result is:
   dispatcher1 bin of 200 is: 0000000010010110
   dispatcher2 len of 222: 3
 
-</code>
+```
