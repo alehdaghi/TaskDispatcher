@@ -83,7 +83,7 @@ full exmaple
 
     printf("in main thread\n");
 
-    ThreadDispatcher::popDispatcher(); // main thread waits until all task of dispatcher 3 to be done!
+    ThreadDispatcher::popDispatcher(); // main thread waits until all tasks of dispatcher 3 to be done!
 
     printf("in main thread, after removing a dispatcher!\n");
 
