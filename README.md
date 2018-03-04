@@ -8,7 +8,7 @@ create a dispatcher and dispatching a task
 std::shared_ptr<AsyncDispatcher> dispatcher = std::shared_ptr<AsyncDispatcher>(new AsyncDispatcher);
   
 dispatcher->dispatch([]{
-        printf("dispatcher1 doing a task! \n");
+        printf("dispatcher1 is doing a task! \n");
   });
 ```
 
@@ -19,7 +19,7 @@ make dispatcher list
             (std::shared_ptr<AsyncDispatcher>(new AsyncDispatcher));
   
   ThreadDispatcher::peekDispatcher()->dispatch([]{
-        printf("dispatcher1 doing a task!\n");
+        printf("dispatcher1 is doing a task!\n");
     });
 
 ```
